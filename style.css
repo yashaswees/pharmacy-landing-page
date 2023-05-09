@@ -1,0 +1,366 @@
+*{
+    font-family: 'Avenir' ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 680px;
+}
+ .bg_img{
+    background: url("images/Rectangle 1.svg") no-repeat;
+    background-position: cover;
+}
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      margin-left:105px;
+      margin-right: 102px;
+}
+
+nav{
+    padding-top: 37px;
+    height: 79px;
+}
+
+.menu ul{
+    width: 500px;
+}
+
+.menu li {
+    color: white;
+    list-style: none;
+}
+
+.headerLeft{
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    color:white;
+}
+
+.headerRight{
+    display: flex;
+    align-self: flex-end;
+}
+.headPara{
+    margin-top: 20px;
+}
+.logIn{
+    background-color: #1BC768;
+    color:white;
+    border-radius: 50px;
+    padding: 10px 38px;
+    border-style: none;
+}
+.buttonBar .b1{
+    background-color: #043CAA;
+    color:white;
+    border-color: white;
+    margin: 0 11px;
+    border-width: 1px;
+    height: 45px;
+    width: 86px;
+    border-radius: 50px;
+    margin-top: 44px;
+}
+.b1:hover{
+    background-color:white;
+    color:#043CAA;
+}
+.logo{
+    color:white;
+    font-weight: 900;
+  
+}
+.searchBar{
+    display: flex;
+    height: 48px;
+    width: 488px;
+    margin-top: 52px;
+    border-radius: 50px 0 0 50px;
+    align-items: center;
+    font-size: 14px;
+    border-left-color: transparent;
+}
+ input[type=text] {
+    padding: 10px;
+    border-width: 0px;
+    width: 488px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.submit {
+    width: 127px;
+    padding: 10px;
+    color: #7A7A7A;
+    height: 43px;
+    border: none; 
+    cursor: pointer;
+    border-radius: 0px 50px 50px 0px;
+    color:white;
+    background-color: #1BC768;
+  }
+.man{
+    height: 500px;
+    width: 483px;
+}
+.fa{
+    background-color: white;
+    color:#7A7A7A;
+    border: none;
+    padding-top: 10px;
+    height: 42px;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 15px;
+}
+.hrl{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.my-hr{
+    width: 91px;
+    border-radius:50px 0px 0px  50px;
+    color:#043CAA;
+    border: 5px solid #043CAA; 
+
+}
+.my-hr1{
+    width:91px;
+    border-radius: 0px 50px 50px 0px;
+    border: 5px solid #1BC768;
+}
+.affiliations{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    font-weight: 900;
+    color:#043CAA;
+    font-size: 36px;
+}
+.logos{
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-between;
+    width: 564px;
+    margin-left:334px;
+}
+.benefits{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color:#043CAA;
+    font-size: 36px;
+    margin-top: 113px;
+}
+.leftContent1{
+    margin-top: 151px;
+    padding-left: 211px;
+    width: 550px;
+}
+.subtitle{
+    color: #043CAA;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    width: 242px;
+}
+.leftContent1 ul {
+    margin-top: 40px;
+}
+.leftContent1 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.content1{
+    display: flex;
+}
+.rightContent1{
+    margin-left: 139px;
+    width:511px;
+    height:518px;
+}
+.b12{
+    border-radius: 50px;
+    border-color: #1BC768;
+    color:#1BC768;
+    background-color: white;
+    height: 47px;
+    width: 238px;
+    padding: 11px 35px 11px 35px;
+    border-width: 1px;
+    font-size: 18px;
+}
+.b12:hover{
+    background-color: #1BC768;
+    color:white;
+}
+.content2{
+    display: flex;
+}
+.leftContent2{
+    margin-left:240px;
+    height: 409.3666687011719px;
+    width: 474.8341064453125px;
+    margin-top:70px ;
+}
+.rightContent2{
+    margin-left: 159px;
+    margin-top: 148px;
+}
+.rightContent2 ul {
+    margin-top: 40px;
+}
+.rightContent2 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.content3{
+    display: flex;
+}
+.leftContent3{
+    margin-top: 211px;
+    padding-left: 211px;
+}
+.leftContent3 ul {
+    margin-top: 40px;
+}
+.leftContent3 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.rightContent3{
+    margin-left: 118px;
+    margin-top: 70px;
+    width: 511px;
+    height:518px;
+}
+.medicine{
+    display: flex;
+    margin-top: 94px;
+}
+.medicineLeft{
+    height: 466px;
+    width: 648px;
+}
+.title2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+    margin-left: 187px;
+}
+.hr{
+    margin-left: 119px;
+}
+.medText{
+    margin-top: 48px;
+    margin-left: 187px;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.medName{
+    margin-top: 18px;
+    color:#043CAA;
+}
+.footer-container{
+    color:white;
+    background-color: #043CAA;
+    height: 548px;
+    margin-top: 138px;
+}
+.upperFooter{
+    display: flex;
+}
+.signUp{
+    margin-left:173px;
+    margin-top:90px;
+}
+.signUp-title{
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.signUp-content{
+    margin-top: 18px;
+    width:404px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.subscribe{
+    margin-top: 96px;
+    margin-left: 143px;
+}
+form.emailBar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    height:50px;
+    width: 333px;
+    padding-left: 26px;
+    border-radius: 50px 0px 0px 50px ;
+    margin-top: 13px;
+}
+.sub{
+    margin-top: 13px;
+    border: none;
+    background-color: #1BC768;
+    color:white;
+    height: 50px;
+    width: 127px;
+    border-radius: 0px 50px 50px 0px;
+}
+.dExpress{
+    margin-left: 173px;
+    margin-top: 106px;
+}
+.topic{
+    font-size:24px;
+    font-weight:900;
+}
+.info{
+    width:211px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 11px;
+}
+.lowerFooter{
+    display: flex;
+}
+.links{
+    display: flex;
+  
+}
+.links ul {
+    list-style: none;
+}
+.links1{
+    margin-left: 209px;
+    margin-top:117px ;
+    line-height: 21px;
+}
+.links ul li{
+    margin-bottom: 21px;;
+}
+.links2{
+    margin-left: 91px;
+    margin-top:117px ;
+}
+.links3{
+    margin-left: 131px;
+    margin-top:117px ;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;    
+}
