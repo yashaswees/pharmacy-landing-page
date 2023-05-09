@@ -9,7 +9,7 @@
 }
  .bg_img{
     background: url("images/Rectangle 1.svg") no-repeat;
-    background-position: cover;
+    background-size: cover;
 }
 .flexBox{
     display: flex;
